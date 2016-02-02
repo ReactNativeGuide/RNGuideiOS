@@ -111,8 +111,8 @@ And lastly we need to apply this style to the Image component:
 Press `⌘+R` / `Reload JS` and the image should now render.
 
 <div class="tutorial-mock">
-  <img src="/react-native/img/TutorialMock.png" />
-  <img src="/react-native/img/TutorialMock2.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialMock.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialMock2.png" />
 </div>
 
 
@@ -189,8 +189,8 @@ Styling the text is pretty straightforward:
 Go ahead and press `⌘+R` / `Reload JS` and you'll see the updated view.
 
 <div class="tutorial-mock">
-  <img src="/react-native/img/TutorialStyledMock.png" />
-  <img src="/react-native/img/TutorialStyledMock2.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialStyledMock.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialStyledMock2.png" />
 </div>
 
 ### Fetching real data
@@ -282,8 +282,8 @@ Now modify the render function to render a loading view if we don't have any mov
 Now press `⌘+R` / `Reload JS` and you should see "Loading movies..." until the response comes back, then it will render the first movie it fetched from Rotten Tomatoes.
 
 <div class="tutorial-mock">
-  <img src="/react-native/img/TutorialSingleFetched.png" />
-  <img src="/react-native/img/TutorialSingleFetched2.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialSingleFetched.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialSingleFetched2.png" />
 </div>
 
 ## ListView
@@ -367,8 +367,8 @@ Finally, we add styles for the `ListView` component to the `styles` JS object:
 And here's the final result:
 
 <div class="tutorial-mock">
-  <img src="/react-native/img/TutorialFinal.png" />
-  <img src="/react-native/img/TutorialFinal2.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialFinal.png" />
+  <img src="http://reactnativeguide.github.io/RNGuideiOS/img/TutorialFinal2.png" />
 </div>
 
 There's still some work to be done to make it a fully functional app such as: adding navigation, search, infinite scroll loading, etc. Check the [Movies Example](https://github.com/facebook/react-native/tree/master/Examples/Movies) to see it all working.
