@@ -15,6 +15,9 @@
 		474B9C121C609CC5009A9FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C101C609CC5009A9FE7 /* LaunchScreen.storyboard */; };
 		474B9C1D1C609CC5009A9FE7 /* IntergratingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C1C1C609CC5009A9FE7 /* IntergratingDemoTests.m */; };
 		474B9C281C609CC5009A9FE7 /* IntergratingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C271C609CC5009A9FE7 /* IntergratingDemoUITests.m */; };
+		474B9C561C61CAB2009A9FE7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C551C61CAB2009A9FE7 /* ReactView.m */; };
+		474B9C631C61D17E009A9FE7 /* componentIndex.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */; };
+		474B9C651C61D9D7009A9FE7 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C641C61D9D7009A9FE7 /* main.jsbundle */; };
 		78E4368C76001888DB137852 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2EDB5859997E3375F127F7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,10 @@
 		474B9C231C609CC5009A9FE7 /* IntergratingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergratingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		474B9C271C609CC5009A9FE7 /* IntergratingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergratingDemoUITests.m; sourceTree = "<group>"; };
 		474B9C291C609CC5009A9FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474B9C541C61CAB2009A9FE7 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactView.h; path = IntergratingDemo/ReactView.h; sourceTree = "<group>"; };
+		474B9C551C61CAB2009A9FE7 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactView.m; path = IntergratingDemo/ReactView.m; sourceTree = "<group>"; };
+		474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = componentIndex.ios.js; sourceTree = "<group>"; };
+		474B9C641C61D9D7009A9FE7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		A1F8C406311F1B4B2E3F3D6D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2EDB5859997E3375F127F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +102,9 @@
 		474B9BF61C609CC5009A9FE7 = {
 			isa = PBXGroup;
 			children = (
+				474B9C611C61D17E009A9FE7 /* ReactComponent */,
+				474B9C541C61CAB2009A9FE7 /* ReactView.h */,
+				474B9C551C61CAB2009A9FE7 /* ReactView.m */,
 				474B9C011C609CC5009A9FE7 /* IntergratingDemo */,
 				474B9C1B1C609CC5009A9FE7 /* IntergratingDemoTests */,
 				474B9C261C609CC5009A9FE7 /* IntergratingDemoUITests */,
@@ -154,6 +164,15 @@
 				474B9C291C609CC5009A9FE7 /* Info.plist */,
 			);
 			path = IntergratingDemoUITests;
+			sourceTree = "<group>";
+		};
+		474B9C611C61D17E009A9FE7 /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+				474B9C641C61D9D7009A9FE7 /* main.jsbundle */,
+				474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */,
+			);
+			path = ReactComponent;
 			sourceTree = "<group>";
 		};
 		8A7EE200F17AEE6CB7A0E65B /* Frameworks */ = {
@@ -269,7 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474B9C631C61D17E009A9FE7 /* componentIndex.ios.js in Resources */,
 				474B9C121C609CC5009A9FE7 /* LaunchScreen.storyboard in Resources */,
+				474B9C651C61D9D7009A9FE7 /* main.jsbundle in Resources */,
 				474B9C0F1C609CC5009A9FE7 /* Assets.xcassets in Resources */,
 				474B9C0D1C609CC5009A9FE7 /* Main.storyboard in Resources */,
 			);
@@ -329,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474B9C561C61CAB2009A9FE7 /* ReactView.m in Sources */,
 				474B9C0A1C609CC5009A9FE7 /* ViewController.m in Sources */,
 				474B9C071C609CC5009A9FE7 /* AppDelegate.m in Sources */,
 				474B9C041C609CC5009A9FE7 /* main.m in Sources */,

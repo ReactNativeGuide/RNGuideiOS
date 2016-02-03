@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "ReactView.h"
+
 
 @interface ViewController ()
+
+@property (nonatomic, weak) IBOutlet ReactView *reactView;
 
 @end
 
