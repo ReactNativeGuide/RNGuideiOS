@@ -158,6 +158,18 @@ In root directory, we need to start React Native development server.
 (JS_DIR=`pwd`/ReactComponent; cd node_modules/react-native; npm run start -- --root $JS_DIR)
 ```
 
+在本例中，使用如下命令
+
+```
+(JS_DIR=`pwd`/ReactComponent; cd ../AwesomeProject/node_modules/react-native; npm run start -- --root $JS_DIR)
+```
+
+或直接转换为本地bundle
+
+```
+curl http://localhost:8081/componentIndex.ios.bundle?platform=ios -o main.jsbundle
+```
+
 This command will start up a React Native development server within our CocoaPods dependency to build our bundled script. The `--root` option indicates the root of your React Native apps – this will be our `ReactComponents` directory containing the single `index.ios.js` file. This running server will package up the `index.ios.bundle` file accessible via `http://localhost:8081/index.ios.bundle`.
 
 ## Update App Transport Security
