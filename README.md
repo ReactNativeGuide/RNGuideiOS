@@ -1,5 +1,6 @@
 # RNGuideiOS
-React Native 入门指南及原理解析 iOS
+React Native 入门指南及原理解析 iOS  
+更详细的文档及备注见Wiki<https://github.com/ReactNativeGuide/RNGuideiOS/wiki>
 
 ##说明
 1. 每个demo都有相应的md格式的Guide可以参考，图片是从 https://github.com/facebook/react-native gh-pages分支中获取的。对应的具体路径是 http://reactnativeguide.github.io/RNGuideiOS/img/  
