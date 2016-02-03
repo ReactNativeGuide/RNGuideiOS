@@ -4,7 +4,7 @@ React Native 入门指南及原理解析 iOS
 ##Guides
 
 ###Tutorial  
-Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Tutorial.md
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Tutorial.md  
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/AwesomeProject
 
 ###Intergrating with Existing Apps  
