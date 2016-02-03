@@ -24,3 +24,8 @@ class SimpleApp extends React.Component {
 }
 
 React.AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
+
+// React-Native Module Example
+
+var CalendarManager = require('react-native').NativeModules.CalendarManager;
+CalendarManager.addEvent('Birthday Party', '4 Privet Drive, Surrey');

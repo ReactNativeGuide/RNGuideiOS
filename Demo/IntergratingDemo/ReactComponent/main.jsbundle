@@ -1303,6 +1303,11 @@ React.createElement(Text,null,'This is a simple application.')));}}]);return Sim
 
 
 React.AppRegistry.registerComponent('SimpleApp',function(){return SimpleApp;});
+
+
+
+var CalendarManager=require('react-native/Libraries/react-native/react-native.js').NativeModules.CalendarManager;
+CalendarManager.addEvent('Birthday Party','4 Privet Drive, Surrey');
 });
 __d('react-native/Libraries/react-native/react-native.js',function(global, require, module, exports) {  'use strict';
 

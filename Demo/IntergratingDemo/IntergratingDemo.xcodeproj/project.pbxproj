@@ -18,6 +18,7 @@
 		474B9C561C61CAB2009A9FE7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C551C61CAB2009A9FE7 /* ReactView.m */; };
 		474B9C631C61D17E009A9FE7 /* componentIndex.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */; };
 		474B9C651C61D9D7009A9FE7 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C641C61D9D7009A9FE7 /* main.jsbundle */; };
+		474B9C691C61EA7C009A9FE7 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C681C61EA7C009A9FE7 /* CalendarManager.m */; };
 		78E4368C76001888DB137852 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2EDB5859997E3375F127F7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		474B9C551C61CAB2009A9FE7 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactView.m; path = IntergratingDemo/ReactView.m; sourceTree = "<group>"; };
 		474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = componentIndex.ios.js; sourceTree = "<group>"; };
 		474B9C641C61D9D7009A9FE7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		474B9C671C61EA7C009A9FE7 /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
+		474B9C681C61EA7C009A9FE7 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
 		A1F8C406311F1B4B2E3F3D6D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2EDB5859997E3375F127F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +105,7 @@
 		474B9BF61C609CC5009A9FE7 = {
 			isa = PBXGroup;
 			children = (
+				474B9C661C61EA63009A9FE7 /* ReactModuleExample */,
 				474B9C611C61D17E009A9FE7 /* ReactComponent */,
 				474B9C541C61CAB2009A9FE7 /* ReactView.h */,
 				474B9C551C61CAB2009A9FE7 /* ReactView.m */,
@@ -173,6 +177,15 @@
 				474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */,
 			);
 			path = ReactComponent;
+			sourceTree = "<group>";
+		};
+		474B9C661C61EA63009A9FE7 /* ReactModuleExample */ = {
+			isa = PBXGroup;
+			children = (
+				474B9C671C61EA7C009A9FE7 /* CalendarManager.h */,
+				474B9C681C61EA7C009A9FE7 /* CalendarManager.m */,
+			);
+			path = ReactModuleExample;
 			sourceTree = "<group>";
 		};
 		8A7EE200F17AEE6CB7A0E65B /* Frameworks */ = {
@@ -350,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474B9C691C61EA7C009A9FE7 /* CalendarManager.m in Sources */,
 				474B9C561C61CAB2009A9FE7 /* ReactView.m in Sources */,
 				474B9C0A1C609CC5009A9FE7 /* ViewController.m in Sources */,
 				474B9C071C609CC5009A9FE7 /* AppDelegate.m in Sources */,
