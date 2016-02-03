@@ -7,11 +7,15 @@ React Native 入门指南及原理解析 iOS
 2. 因有些技术点无需新建工程，故部分Demo中有多个Guide可能参考  
 
 ###Tutorial  
-Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Tutorial.md  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Guides/Tutorial.md  
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/AwesomeProject
 
 ###Intergrating with Existing Apps  
-Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/EmbeddedAppIOS.md
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/EmbeddedAppIOS.md
+Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo
+
+###Native Modules  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/NativeModulesIOS.md
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo
 
 ##Ref
