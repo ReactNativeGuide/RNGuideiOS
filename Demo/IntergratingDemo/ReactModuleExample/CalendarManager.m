@@ -53,4 +53,16 @@ RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback)
 //    callback(@[RCTMakeError(@"test", @"test error", @{}), @[]]);
 }
 
+RCT_REMAP_METHOD(findEvents,
+                 resolver:(RCTPromiseResolveBlock)resolve
+                 rejecter:(RCTPromiseRejectBlock)reject)
+{
+    NSArray *events = @[@"asdf"];
+    if ([events count]) {
+        resolve(events);
+    } else {
+        reject(@"1", @"asdf", nil);
+    }
+}
+
 @end

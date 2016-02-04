@@ -39,10 +39,21 @@ CalendarManager.addEvent('Birthday Party', {
   description: '...'
 })
 
-CalendarManager.findEvents((error, events) => {
-  if (error) {
-    console.error(error);
-  } else {
+//CalendarManager.findEvents((error, events) => {
+//  if (error) {
+//    console.error(error);
+//  } else {
+//    console.log(events);
+//  }
+//})
+
+async function updateEvents() {
+  try {
+    var events = await CalendarManager.findEvents();
     console.log(events);
+  } catch (e) {
+    console.error(e);
   }
-})
+}
+
+updateEvents();
