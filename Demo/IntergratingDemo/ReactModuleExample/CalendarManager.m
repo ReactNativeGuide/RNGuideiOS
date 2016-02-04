@@ -9,6 +9,7 @@
 #import "CalendarManager.h"
 #import "RCTLog.h"
 #import "RCTConvert.h"
+#import "RCTUtils.h"
 
 @implementation CalendarManager
 
@@ -43,6 +44,13 @@ RCT_EXPORT_METHOD(addEvent:(NSString *)name details:(NSDictionary *)details)
     NSDate *time = [RCTConvert NSDate:details[@"time"]];
 
     RCTLogInfo(@"Pretending to create an event %@ at %@ at:%@", name, location, time);
+}
+
+RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback)
+{
+    NSArray *events = @[@"test1", @"test2"];
+    callback(@[[NSNull null], events]);
+//    callback(@[RCTMakeError(@"test", @"test error", @{}), @[]]);
 }
 
 @end

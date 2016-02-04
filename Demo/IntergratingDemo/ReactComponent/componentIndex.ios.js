@@ -38,3 +38,11 @@ CalendarManager.addEvent('Birthday Party', {
   time: date.getTime(),
   description: '...'
 })
+
+CalendarManager.findEvents((error, events) => {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log(events);
+  }
+})
