@@ -57,3 +57,7 @@ async function updateEvents() {
 }
 
 updateEvents();
+
+CalendarManager.doSomethingExpensive("input param", (error, results) => {
+  console.log("error:" + error + " result:" + results);
+});

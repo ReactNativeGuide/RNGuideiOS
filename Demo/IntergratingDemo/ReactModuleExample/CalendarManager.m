@@ -13,6 +13,16 @@
 
 @implementation CalendarManager
 
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
+//- (dispatch_queue_t)methodQueue
+//{
+//    return dispatch_queue_create("com.facebook.React.AsyncLocalStorageQueue", DISPATCH_QUEUE_SERIAL);
+//}
+
 RCT_EXPORT_MODULE()
 
 //RCT_EXPORT_METHOD(addEvent:(NSString *)name location:(NSString *)location)
@@ -63,6 +73,16 @@ RCT_REMAP_METHOD(findEvents,
     } else {
         reject(@"1", @"asdf", nil);
     }
+}
+
+RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSenderBlock)callback)
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        // Call long-running code on background thread
+        sleep(2);
+        // You can invoke callback from any thread/queue
+        callback(@[[NSNull null], @[param, @"asdf"]]);
+    });
 }
 
 @end
