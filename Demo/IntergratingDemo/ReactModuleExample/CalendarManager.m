@@ -85,4 +85,10 @@ RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSe
     });
 }
 
+// Exporting Constants
+- (NSDictionary *)constantsToExport
+{
+    return @{ @"firstDayOfTheWeek": @"Monday" };
+}
+
 @end
