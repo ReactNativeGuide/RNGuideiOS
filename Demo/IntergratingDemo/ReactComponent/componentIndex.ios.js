@@ -13,6 +13,16 @@ var styles = React.StyleSheet.create({
   }
 });
 
+var { NativeAppEventEmitter } = require('react-native');
+
+var subscription = NativeAppEventEmitter.addListener(
+  'EventReminder',
+  (reminder) => {
+    console.log("notification arrived. in js ev");
+    console.log(reminder.name)
+  }
+);
+
 class SimpleApp extends React.Component {
   render() {
     return (
@@ -20,6 +30,10 @@ class SimpleApp extends React.Component {
         <Text>This is a simple application.</Text>
       </View>
     )
+  }
+
+  componentWillUnmount() {
+    subscription.remove();
   }
 }
 

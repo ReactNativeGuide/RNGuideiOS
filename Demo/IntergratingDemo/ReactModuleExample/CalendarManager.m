@@ -11,7 +11,13 @@
 #import "RCTConvert.h"
 #import "RCTUtils.h"
 
+// Sending Events to JavaScript
+#import "RCTBridge.h"
+#import "RCTEventDispatcher.h"
+
 @implementation CalendarManager
+
+@synthesize bridge = _bridge;
 
 - (dispatch_queue_t)methodQueue
 {
@@ -77,7 +83,10 @@ RCT_REMAP_METHOD(findEvents,
 
 RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSenderBlock)callback)
 {
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    // test Sending Events to JavaScript
+    [self performSelector:@selector(calendarEventReminderReceived:) withObject:nil afterDelay:3.0f];
+    
+    dispatch_async( dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // Call long-running code on background thread
         sleep(2);
         // You can invoke callback from any thread/queue
@@ -106,5 +115,13 @@ RCT_EXPORT_METHOD(updateStatusBarAnimation:(UIStatusBarAnimation)animation
         callback(@[[NSNull null], @"other"]);
     }
 }
+
+- (void)calendarEventReminderReceived:(NSNotification *)notification
+{
+//    NSString *eventName = notification.userInfo[@"name"];
+    [self.bridge.eventDispatcher sendAppEventWithName:@"EventReminder"
+                                                 body:@{@"name": @"asdffdsa"}];
+}
+
 
 @end
