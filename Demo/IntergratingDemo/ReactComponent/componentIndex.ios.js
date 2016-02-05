@@ -63,3 +63,7 @@ CalendarManager.doSomethingExpensive("input param", (error, results) => {
 });
 
 console.log(CalendarManager.firstDayOfTheWeek);
+
+CalendarManager.updateStatusBarAnimation(CalendarManager.statusBarAnimationFade, (error, result) => {
+  console.log(result);
+});

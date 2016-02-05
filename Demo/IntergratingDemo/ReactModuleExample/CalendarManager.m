@@ -86,9 +86,25 @@ RCT_EXPORT_METHOD(doSomethingExpensive:(NSString *)param callback:(RCTResponseSe
 }
 
 // Exporting Constants
+//- (NSDictionary *)constantsToExport
+//{
+//    return @{ @"firstDayOfTheWeek": @"Monday" };
+//}
 - (NSDictionary *)constantsToExport
 {
-    return @{ @"firstDayOfTheWeek": @"Monday" };
+    return @{ @"statusBarAnimationNone" : @(UIStatusBarAnimationNone),
+              @"statusBarAnimationFade" : @(UIStatusBarAnimationFade),
+              @"statusBarAnimationSlide" : @(UIStatusBarAnimationSlide) };
+}
+
+RCT_EXPORT_METHOD(updateStatusBarAnimation:(UIStatusBarAnimation)animation
+                  completion:(RCTResponseSenderBlock)callback)
+{
+    if (animation == UIStatusBarAnimationFade) {
+        callback(@[[NSNull null], @"Fade"]);
+    } else {
+        callback(@[[NSNull null], @"other"]);
+    }
 }
 
 @end

@@ -63,6 +63,7 @@
 		474B9C641C61D9D7009A9FE7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		474B9C671C61EA7C009A9FE7 /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		474B9C681C61EA7C009A9FE7 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		474B9C6B1C64A94C009A9FE7 /* RCTConvert_StatusBarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTConvert_StatusBarAnimation.h; sourceTree = "<group>"; };
 		A1F8C406311F1B4B2E3F3D6D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2EDB5859997E3375F127F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -184,6 +185,7 @@
 			children = (
 				474B9C671C61EA7C009A9FE7 /* CalendarManager.h */,
 				474B9C681C61EA7C009A9FE7 /* CalendarManager.m */,
+				474B9C6B1C64A94C009A9FE7 /* RCTConvert_StatusBarAnimation.h */,
 			);
 			path = ReactModuleExample;
 			sourceTree = "<group>";
