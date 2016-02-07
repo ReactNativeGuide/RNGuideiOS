@@ -19,6 +19,10 @@ Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/Intergrat
 Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/NativeModulesIOS.md
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo
 
+###3. Communication between native and React Native  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/CommunicationIOS.md
+Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo
+
 ##Ref
 
 React-Native学习指南  
