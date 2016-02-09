@@ -10,6 +10,8 @@
 #import "ReactView.h"
 #import "RCTRootView.h"
 
+#import "RCTUIManager.h"
+
 @interface ViewController ()
 
 @property (nonatomic, weak) IBOutlet ReactView *reactView;
@@ -52,6 +54,10 @@
     
     rootView.frame = CGRectMake(10, 200, 320, 100);
     [self.view addSubview:rootView];
+    
+    RCTUIManager *uiManager = bridge.uiManager;
+    NSLog(@"uiManager:%@", uiManager);
+//    [bridge.uiManager setNeedsLayout];
 }
 
 @end

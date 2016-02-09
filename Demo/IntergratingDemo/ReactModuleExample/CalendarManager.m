@@ -126,5 +126,6 @@ RCT_EXPORT_METHOD(updateStatusBarAnimation:(UIStatusBarAnimation)animation
 //Passing properties from React Native to native
 //RCT_CUSTOM_VIEW_PROPERTY
 
+//RCTUIManager
 
 @end
