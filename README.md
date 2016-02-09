@@ -30,3 +30,6 @@ https://github.com/ele828/react-native-guide
   
 Awesome React Native  
 https://github.com/jondot/awesome-react-native
+
+React Native通信机制详解  
+http://blog.cnbang.net/tech/2698/
