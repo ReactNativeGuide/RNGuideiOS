@@ -49,6 +49,9 @@
                                               initialProperties:props];
     
     rootView.appProperties = props;
+    
+    rootView.frame = CGRectMake(10, 200, 320, 100);
+    [self.view addSubview:rootView];
 }
 
 @end
