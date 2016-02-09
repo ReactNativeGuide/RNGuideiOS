@@ -52,7 +52,7 @@
     
     rootView.appProperties = props;
     
-    rootView.frame = CGRectMake(10, 200, 320, 100);
+    rootView.frame = CGRectMake(0, 200, self.view.frame.size.width, 100);
     [self.view addSubview:rootView];
     
     RCTUIManager *uiManager = bridge.uiManager;
