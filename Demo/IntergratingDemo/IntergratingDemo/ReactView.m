@@ -27,6 +27,8 @@
     
     [self addSubview:rootView];
     rootView.frame = self.bounds;
+    
+    rootView.sizeFlexibility = RCTRootViewSizeFlexibilityWidthAndHeight;
 }
 
 @end

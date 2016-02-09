@@ -27,7 +27,7 @@ class SimpleApp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>This is a simple application.</Text>
+        <Text>This is a simple application. \n try to flex width\n try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width try to flex width </Text>
       </View>
     )
   }
