@@ -63,6 +63,9 @@ class ImageBrowserApp extends React.Component {
 React.AppRegistry.registerComponent('ImageBrowserApp', () => ImageBrowserApp);
 ```
 
+>***注意:***
+>这块`renderImage`里是有语法错误的,目前不知道为何,只是通过`Text`把`{this.props.images}`给输出看下.
+
 `RCTRootView` also provides a read-write property `appProperties`. After `appProperties` is set, the React Native app is re-rendered with new properties. The update is only performed when the new updated properties differ from the previous ones.
 
 ```
