@@ -19,6 +19,7 @@
 		474B9C631C61D17E009A9FE7 /* componentIndex.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */; };
 		474B9C651C61D9D7009A9FE7 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C641C61D9D7009A9FE7 /* main.jsbundle */; };
 		474B9C691C61EA7C009A9FE7 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B9C681C61EA7C009A9FE7 /* CalendarManager.m */; };
+		474B9C6F1C69C325009A9FE7 /* ImageBrowserApp.js in Resources */ = {isa = PBXBuildFile; fileRef = 474B9C6E1C69C325009A9FE7 /* ImageBrowserApp.js */; };
 		78E4368C76001888DB137852 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2EDB5859997E3375F127F7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		474B9C671C61EA7C009A9FE7 /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		474B9C681C61EA7C009A9FE7 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
 		474B9C6B1C64A94C009A9FE7 /* RCTConvert_StatusBarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTConvert_StatusBarAnimation.h; sourceTree = "<group>"; };
+		474B9C6E1C69C325009A9FE7 /* ImageBrowserApp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImageBrowserApp.js; sourceTree = "<group>"; };
 		A1F8C406311F1B4B2E3F3D6D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2EDB5859997E3375F127F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 		474B9C611C61D17E009A9FE7 /* ReactComponent */ = {
 			isa = PBXGroup;
 			children = (
+				474B9C6E1C69C325009A9FE7 /* ImageBrowserApp.js */,
 				474B9C641C61D9D7009A9FE7 /* main.jsbundle */,
 				474B9C621C61D17E009A9FE7 /* componentIndex.ios.js */,
 			);
@@ -306,6 +309,7 @@
 				474B9C631C61D17E009A9FE7 /* componentIndex.ios.js in Resources */,
 				474B9C121C609CC5009A9FE7 /* LaunchScreen.storyboard in Resources */,
 				474B9C651C61D9D7009A9FE7 /* main.jsbundle in Resources */,
+				474B9C6F1C69C325009A9FE7 /* ImageBrowserApp.js in Resources */,
 				474B9C0F1C609CC5009A9FE7 /* Assets.xcassets in Resources */,
 				474B9C0D1C609CC5009A9FE7 /* Main.storyboard in Resources */,
 			);
