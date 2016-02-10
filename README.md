@@ -33,3 +33,4 @@ https://github.com/jondot/awesome-react-native
 
 React Native通信机制详解  
 http://blog.cnbang.net/tech/2698/
+> 这篇文档还是RN才开源时分析的,思路可供了解.
