@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self testThreeOperation];
+    [self testBoolWithOption];
+    
     return YES;
 }
 
@@ -40,6 +44,32 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - test
+
+// 三目运算符省略用法
+// http://gcc.gnu.org/onlinedocs/gcc-3.2.3/gcc/Conditionals.html#Conditionals
+// x?:y => x?x:y
+- (void)testThreeOperation
+{
+    int x = 1;
+    int result = x ?: 0;
+    NSLog(@"result:%d", result);
+}
+
+/*
+//This function checks if a class has been registered
+//BOOL RCTBridgeModuleClassIsRegistered(Class cls)
+//{
+//    return [objc_getAssociatedObject(cls, &RCTBridgeModuleClassIsRegistered) ?: @YES boolValue];
+//}
+ */
+// 这部分其实主要是三元操作符影响了判断，这个[]只是简单的方法调用
+- (void)testBoolWithOption
+{
+    NSNumber *bValue = @NO;
+    NSLog(@"testBoolWithOption: %d", [bValue ?: @YES boolValue]);
 }
 
 @end
