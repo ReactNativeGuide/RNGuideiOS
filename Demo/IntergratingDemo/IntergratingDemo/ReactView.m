@@ -8,6 +8,7 @@
 
 #import "ReactView.h"
 #import "RCTRootView.h"
+#import "RCTRootViewDelegate.h"
 
 @interface ReactView ()<RCTRootViewDelegate>
 
