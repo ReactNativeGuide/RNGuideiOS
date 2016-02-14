@@ -23,6 +23,11 @@ Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/Intergrat
 Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/CommunicationIOS.md
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo
 
+###4. Debugging  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Guides/Debugging.md
+Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/AwesomeProject
+
+
 ##Ref
 
 React-Native学习指南  
