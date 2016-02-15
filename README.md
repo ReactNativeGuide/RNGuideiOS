@@ -1,5 +1,5 @@
 # RNGuideiOS
-React Native 入门指南及原理解析 iOS  
+[React Native](https://facebook.github.io/react-native/) 入门指南及原理解析 iOS  
 更详细的文档及备注见Wiki<https://github.com/ReactNativeGuide/RNGuideiOS/wiki>
 
 ##说明
