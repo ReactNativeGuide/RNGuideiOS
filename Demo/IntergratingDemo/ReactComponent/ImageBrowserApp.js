@@ -47,8 +47,8 @@ class ImageBrowserApp extends React.Component {
     console.log("testGestureHandleResponderReject");
   }
 
-  testGestureHandleResponderMove() {
-    console.log("testGestureHandleResponderMove");
+  testGestureHandleResponderMove(evt) {
+    console.log("testGestureHandleResponderMove event: " + evt + " x: " + evt.locationX + " y:" + evt.locationY);
   }
 
   render() {
@@ -64,6 +64,7 @@ class ImageBrowserApp extends React.Component {
               onMoveShouldSetResponder = {this.testGestureHandleMoveShouldSetResponder}
               onResponderGrant = {this.testGestureHandleResponderGrant}
               onResponderReject = {this.testGestureHandleResponderReject}
+              onResponderMove = {this.testGestureHandleResponderMove}
         >
           <Text>Test Gesture</Text>
         </View>
