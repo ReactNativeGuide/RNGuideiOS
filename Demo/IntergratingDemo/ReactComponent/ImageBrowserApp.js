@@ -40,7 +40,7 @@ class ImageBrowserApp extends React.Component {
     // Since e is used in a callback invoked on another event loop
     // (as in setTimeout etc), we need to call e.persist() on the
     // event to make sure it doesn't get reused in the event object pool.
-    //e.persist();
+    e.persist();
   }
 
   testGestureHandleResponderReject() {
@@ -62,8 +62,8 @@ class ImageBrowserApp extends React.Component {
         <View style={styles.subContainer}
               onStartShouldSetResponder = {this.testGestureHandleStartShouldSetResponder}
               onMoveShouldSetResponder = {this.testGestureHandleMoveShouldSetResponder}
-              onResponderGrant = {this.testGestureHandleResponderGrant()}
-              onResponderReject = {this.testGestureHandleResponderReject()}
+              onResponderGrant = {this.testGestureHandleResponderGrant}
+              onResponderReject = {this.testGestureHandleResponderReject}
         >
           <Text>Test Gesture</Text>
         </View>
