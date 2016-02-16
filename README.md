@@ -27,6 +27,11 @@ Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/Intergrat
 Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Guides/Debugging.md
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/AwesomeProject
 
+###5. GestureResponderSystem  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/IntergratingDemo/Guides/GestureResponderSystem.md  
+Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo  
+Issue : https://github.com/ReactNativeGuide/RNGuideiOS/issues/1
+
 
 ##Ref
 
