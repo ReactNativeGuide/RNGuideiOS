@@ -69,3 +69,8 @@ However, sometimes a parent will want to make sure that it becomes responder. Th
 ### PanResponder
 
 For higher-level gesture interpretation, check out [PanResponder](https://facebook.github.io/react-native/docs/panresponder.html#content).
+
+
+>参考这个[文章](http://www.lxway.com/209214082.htm)里面的图,非常好理解.
+图片单独处理如下:
+![](http://blog.saick.net/HostedResources/Images/2016/%E4%BA%8B%E4%BB%B6%E5%93%8D%E5%BA%94%E7%AE%80%E5%8D%95%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
