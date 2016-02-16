@@ -11,6 +11,10 @@ var styles = React.StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'blue'
+  },
+  subContainer: {
+    flex: 1,
+    backgroundColor: 'green'
   }
 });
 
@@ -21,6 +25,32 @@ class ImageBrowserApp extends React.Component {
 //  );
 //},
 
+  testGestureHandleStartShouldSetResponder() {
+    console.log("testGestureHandleStartShouldSetResponder");
+    return true;
+  }
+
+  testGestureHandleMoveShouldSetResponder() {
+    console.log("testGestureHandleMoveShouldSetResponder");
+    return true;
+  }
+
+  testGestureHandleResponderGrant(e, dispatchID) {
+    console.log("testGestureHandleResponderGrant" + " e:" + e + " dispatchID:" + dispatchID);
+    // Since e is used in a callback invoked on another event loop
+    // (as in setTimeout etc), we need to call e.persist() on the
+    // event to make sure it doesn't get reused in the event object pool.
+    //e.persist();
+  }
+
+  testGestureHandleResponderReject() {
+    console.log("testGestureHandleResponderReject");
+  }
+
+  testGestureHandleResponderMove() {
+    console.log("testGestureHandleResponderMove");
+  }
+
   render() {
     return (
       //<View>
@@ -28,6 +58,15 @@ class ImageBrowserApp extends React.Component {
       //</View>
       <View style={styles.container}>
         <Text>{this.props.images}</Text>
+
+        <View style={styles.subContainer}
+              onStartShouldSetResponder = {this.testGestureHandleStartShouldSetResponder}
+              onMoveShouldSetResponder = {this.testGestureHandleMoveShouldSetResponder}
+              onResponderGrant = {this.testGestureHandleResponderGrant()}
+              onResponderReject = {this.testGestureHandleResponderReject()}
+        >
+          <Text>Test Gesture</Text>
+        </View>
       </View>
     );
   }
