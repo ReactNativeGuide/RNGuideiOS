@@ -32,6 +32,12 @@ Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/Intergra
 Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/IntergratingDemo  
 Issue : https://github.com/ReactNativeGuide/RNGuideiOS/issues/1
 
+###6. JavaScriptEnvironment  
+Guide : https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Demo/AwesomeProject/Guides/JavaScriptEnvironment.md  
+Demo : https://github.com/ReactNativeGuide/RNGuideiOS/tree/master/Demo/AwesomeProject  
+Issue : https://github.com/ReactNativeGuide/RNGuideiOS/issues/2
+
+
 
 ##Ref
 
