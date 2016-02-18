@@ -48,7 +48,7 @@ class ImageBrowserApp extends React.Component {
   }
 
   testGestureHandleResponderMove(evt) {
-    console.log("testGestureHandleResponderMove event: " + evt + " x: " + evt.locationX + " y:" + evt.locationY);
+    console.log("testGestureHandleResponderMove event: " + evt + " x: " + evt.nativeEvent.locationX + " y:" + evt.nativeEvent.locationY);
   }
 
   render() {
