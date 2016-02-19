@@ -25,16 +25,16 @@
     // To generate that file, run the curl command and add the output to your main Xcode build target:
     //
     //   curl http://localhost:8081/componentIndex.ios.bundle?platform=ios -o main.jsbundle
-    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName: @"SimpleApp"
-                                                 initialProperties:nil
-                                                     launchOptions:nil];
-    
-    [self addSubview:rootView];
-    rootView.frame = self.bounds;
-    
-    rootView.sizeFlexibility = RCTRootViewSizeFlexibilityWidthAndHeight;
-    rootView.delegate = self;
+//    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+//                                                        moduleName: @"SimpleApp"
+//                                                 initialProperties:nil
+//                                                     launchOptions:nil];
+//    
+//    [self addSubview:rootView];
+//    rootView.frame = self.bounds;
+//    
+//    rootView.sizeFlexibility = RCTRootViewSizeFlexibilityWidthAndHeight;
+//    rootView.delegate = self;
 }
 
 #pragma mark - RCTRootViewDelegate <NSObject>
