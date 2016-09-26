@@ -55,5 +55,5 @@ http://blog.cnbang.net/tech/2698/
 -------
 
 ### 环境搭建及调研  
-1. [初装react-native遇到的环境问题](https://github.com/ReactNativeGuide/RNGuideiOS/wiki/%E5%88%9D%E8%A3%85react-native%E9%81%87%E5%88%B0%E7%9A%84%E5%90%84%E7%B1%BB%E7%8E%AF%E5%A2%83%E9%97%AE%E9%A2%98)
-2. [研究代码相关备忘](https://github.com/ReactNativeGuide/RNGuideiOS/wiki/%E7%A0%94%E7%A9%B6%E4%BB%A3%E7%A0%81%E7%9B%B8%E5%85%B3%E5%A4%87%E5%BF%98)
+1. [初装react-native遇到的环境问题](https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Docs/初装react-native遇到的各类环境问题.md)
+2. [研究代码相关备忘](https://github.com/ReactNativeGuide/RNGuideiOS/blob/master/Docs/研究代码相关备忘.md)
